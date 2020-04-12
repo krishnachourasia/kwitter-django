@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kwitter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -106,18 +109,34 @@
       <option name="presentableId" value="Default" />
       <updated>1586549377203</updated>
       <workItem from="1586549406729" duration="465000" />
-      <workItem from="1586610239460" duration="21361000" />
+      <workItem from="1586610239460" duration="23047000" />
     </task>
+    <task id="LOCAL-00001" summary="Register and Login.">
+      <created>1586647794773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586647794773</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Register and Login." />
+    <option name="LAST_COMMIT_MESSAGE" value="Register and Login." />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586616338532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586647793063">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586647793063" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1586639632050">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
