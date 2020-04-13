@@ -4,26 +4,28 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/DSC_0250.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/DSC_0250_euPE5hU.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/profile_pics/scan_rectify_1561726401178.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/signals.py" afterDir="false" />
+    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="Post CRUD.Password Reset Via mail.">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/posts.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kwitter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/foobar.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/foobar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/profile_pics/scan_rectify_1561726401178.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/scan_rectify_1561726401178.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +39,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -133,7 +135,8 @@
       <updated>1586549377203</updated>
       <workItem from="1586549406729" duration="465000" />
       <workItem from="1586610239460" duration="23166000" />
-      <workItem from="1586687027621" duration="22172000" />
+      <workItem from="1586687027621" duration="22802000" />
+      <workItem from="1586788473625" duration="14220000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -149,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586650036449</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Image and Profile updation Added.">
+      <created>1586732752210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586732752211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,21 +169,26 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Register and Login." />
     <MESSAGE value="Profile Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Profile Added." />
+    <MESSAGE value="Image and Profile updation Added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Image and Profile updation Added." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586806793966">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1586806793966" />
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1586616338532">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586650034829">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586819269652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586650034829" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586731304483">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586819269652" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586789848776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586731304483" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586789848776" />
     <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1586716191165">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -190,10 +205,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586716191165" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586687043591">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586788583477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586687043591" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586788583477" />
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586819102457">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586819102457" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586725744974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
