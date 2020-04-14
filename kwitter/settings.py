@@ -20,12 +20,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '74qmuq0mdg4#fm3rk&piz5*_j2thq!lsw2ch-#(rt3zyy2$qfz'
+SECRET_KEY = os.environ.get('SECRET_KEY')
+# SECRET_KEY = '74qmuq0mdg4#fm3rk&piz5*_j2thq!lsw2ch-#(rt3zyy2$qfz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+    # os.environ.get('DEBUG_VALUE')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['krishna-kwitter.herokuapp.com']
 
 
 # Application definition
@@ -146,3 +148,4 @@ AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
