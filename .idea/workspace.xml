@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/my projects/krishnachourasia.github.io-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
@@ -144,7 +140,7 @@
       <workItem from="1586610239460" duration="23166000" />
       <workItem from="1586687027621" duration="22802000" />
       <workItem from="1586788473625" duration="14606000" />
-      <workItem from="1586864574322" duration="12059000" />
+      <workItem from="1586864574322" duration="13849000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -230,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586875812279</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Footer.">
+      <created>1586881934073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586881934073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +252,8 @@
     <MESSAGE value="Added django-heroku." />
     <MESSAGE value="Updated Settings." />
     <MESSAGE value="Updated base template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated base template." />
+    <MESSAGE value="Added Footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Footer." />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586869360967">
@@ -260,14 +264,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586875810057">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586881932371">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586875810057" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586879725892">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586881932371" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586897884496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586879725892" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586897884496" />
     <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1586879279329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
