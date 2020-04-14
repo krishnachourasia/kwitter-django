@@ -62,22 +62,65 @@
         {% endif %} 
          {% block content %}{% endblock %}
         </div>
-        <div class="col-md-4">
-            <div class="content-section">
-                <h3>Our Sidebar</h3>
-                <p class='text-muted'>You can put any information here you'd like.
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-light">Latest Posts</li>
-                    <li class="list-group-item list-group-item-light">Announcements</li>
-                    <li class="list-group-item list-group-item-light">Calendars</li>
-            <li class="list-group-item list-group-item-light">etc</li>
-          </ul>
-        </p>
-      </div>
-    </div>
+{#        <div class="col-md-4">#}
+{#            <div class="content-section">#}
+{#                <h3>Updates</h3>#}
+{#                <p class='text-muted'>Big things have small beginnings. Just saying :P#}
+{#                <ul class="list-group">#}
+{#                    <li class="list-group-item list-group-item-light">Latest Posts</li>#}
+{#                    <li class="list-group-item list-group-item-light">Announcements</li>#}
+{#                    <li class="list-group-item list-group-item-light">Calendars</li>#}
+{#                    <li class="list-group-item list-group-item-light">etc</li>#}
+{#          </ul>#}
+{#        </p>#}
+{#      </div>#}
+{#    </div>#}
   </div>
 </main>
 
+    <!-- Footer -->
+<footer class="page-footer font-small unique-color-dark pt-4 ">
+
+
+
+
+
+  <!-- Footer Elements -->
+  <div class="content-section">
+                <h3><a class="navbar-brand mr-4" href="{% url 'blog-home' %}">Kwitter</a></h3>
+                <p class='text-muted'>Big things have small beginnings. Just saying :P
+                <ul class="list-group">
+                {% if user.is_authenticated %}
+          <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+          </li>
+          <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+          </li>
+          <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+          </li>
+            {% else %}
+          <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+          </li>
+          <li class="list-group-item list-group-item-light">
+                    <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+          </li>
+            {% endif %}
+          </ul>
+        </p>
+      </div>
+  <!-- Footer Elements -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://mdbootstrap.com/"> krishnachourasia.me</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
 
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
