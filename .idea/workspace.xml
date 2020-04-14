@@ -4,28 +4,10 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="Post CRUD.Password Reset Via mail.">
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_delete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_update.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
+    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwitter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/scan_rectify_1561726401178.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/scan_rectify_1561726401178.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +53,7 @@
       <recent name="C:\Users\Krishna\kwitter\media\profile_pics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.foobar">
+  <component name="RunManager" selected="Python.settings">
     <configuration name="foobar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kwitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +68,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/users/foobar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kwitter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/kwitter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kwitter/settings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.settings" />
         <item itemvalue="Python.foobar" />
       </list>
     </recent_temporary>
@@ -136,7 +141,8 @@
       <workItem from="1586549406729" duration="465000" />
       <workItem from="1586610239460" duration="23166000" />
       <workItem from="1586687027621" duration="22802000" />
-      <workItem from="1586788473625" duration="14220000" />
+      <workItem from="1586788473625" duration="14606000" />
+      <workItem from="1586864574322" duration="1950000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -159,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586732752211</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Post CRUD.Password Reset Via mail.(email BACKEND variables set)">
+      <created>1586821938717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1586821938717</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +183,8 @@
     <MESSAGE value="Register and Login." />
     <MESSAGE value="Profile Added." />
     <MESSAGE value="Image and Profile updation Added." />
-    <option name="LAST_COMMIT_MESSAGE" value="Image and Profile updation Added." />
+    <MESSAGE value="Post CRUD.Password Reset Via mail.(email BACKEND variables set)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Post CRUD.Password Reset Via mail.(email BACKEND variables set)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586806793966">
@@ -181,10 +195,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586819269652">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586821935527">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586819269652" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586821935527" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586789848776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -205,10 +219,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586716191165" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586788583477">
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586864580593">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586788583477" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586864580593" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586819102457">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -220,5 +234,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kwitter$foobar.coverage" NAME="foobar Coverage Results" MODIFIED="1586701959938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/users" />
+    <SUITE FILE_PATH="coverage/kwitter$settings.coverage" NAME="settings Coverage Results" MODIFIED="1586865881451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kwitter" />
   </component>
 </project>
