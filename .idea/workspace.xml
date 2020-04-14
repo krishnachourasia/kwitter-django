@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <workItem from="1586610239460" duration="23166000" />
       <workItem from="1586687027621" duration="22802000" />
       <workItem from="1586788473625" duration="14606000" />
-      <workItem from="1586864574322" duration="5758000" />
+      <workItem from="1586864574322" duration="7196000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586869032142</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated Settings.">
+      <created>1586870771894</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586870771894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +223,8 @@
     <MESSAGE value="Added requirements." />
     <MESSAGE value="Added gitignore file." />
     <MESSAGE value="Added STATIC_ROOT." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added STATIC_ROOT." />
+    <MESSAGE value="Updated Settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Settings." />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586869360967">
@@ -227,10 +235,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586869031040">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586870770508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586869031040" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586870770508" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586789848776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
