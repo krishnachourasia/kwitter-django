@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/readme.txt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +142,7 @@
       <workItem from="1586610239460" duration="23166000" />
       <workItem from="1586687027621" duration="22802000" />
       <workItem from="1586788473625" duration="14606000" />
-      <workItem from="1586864574322" duration="1950000" />
+      <workItem from="1586864574322" duration="2657000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -172,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586821938717</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="AWS S3 setup for saving images.">
+      <created>1586866733629</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586866733629</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +191,8 @@
     <MESSAGE value="Profile Added." />
     <MESSAGE value="Image and Profile updation Added." />
     <MESSAGE value="Post CRUD.Password Reset Via mail.(email BACKEND variables set)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Post CRUD.Password Reset Via mail.(email BACKEND variables set)" />
+    <MESSAGE value="AWS S3 setup for saving images." />
+    <option name="LAST_COMMIT_MESSAGE" value="AWS S3 setup for saving images." />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586806793966">
@@ -195,10 +203,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586821935527">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586867595274">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586821935527" />
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586867595274" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586789848776">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
