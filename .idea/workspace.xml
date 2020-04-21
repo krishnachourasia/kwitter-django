@@ -4,12 +4,14 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="">
+    <list default="true" id="d3804bba-882b-4800-bfb4-d134c3cc7d71" name="Default Changelist" comment="Added Footer.">
+      <change afterPath="$PROJECT_DIR$/users/ratmaze.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/kwitter/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/kwitter/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/foobar.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/foobar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -46,16 +48,17 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/my projects/krishnachourasia.github.io-master" />
+    <property name="last_opened_file_path" value="F:/my projects/backup__/kwitter" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Krishna\kwitter\blog\templates\blog" />
       <recent name="C:\Users\Krishna\kwitter\media\profile_pics" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.settings">
+  <component name="RunManager" selected="Python.ratmaze">
     <configuration name="foobar" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="kwitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,6 +73,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/users/foobar.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ratmaze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="kwitter" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/users/ratmaze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,8 +150,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.settings" />
+        <item itemvalue="Python.ratmaze" />
         <item itemvalue="Python.foobar" />
+        <item itemvalue="Python.settings" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +170,10 @@
       <workItem from="1586610239460" duration="23166000" />
       <workItem from="1586687027621" duration="22802000" />
       <workItem from="1586788473625" duration="14606000" />
-      <workItem from="1586864574322" duration="12059000" />
+      <workItem from="1586864574322" duration="19061000" />
+      <workItem from="1586952594523" duration="10322000" />
+      <workItem from="1587207188603" duration="4676000" />
+      <workItem from="1587426718363" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="Register and Login.">
       <created>1586647794773</created>
@@ -230,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586875812279</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Added Footer.">
+      <created>1586881934073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586881934073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,7 +285,8 @@
     <MESSAGE value="Added django-heroku." />
     <MESSAGE value="Updated Settings." />
     <MESSAGE value="Updated base template." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated base template." />
+    <MESSAGE value="Added Footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Footer." />
   </component>
   <component name="WindowStateProjectService">
     <state x="441" y="167" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586869360967">
@@ -260,49 +297,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="441" y="235" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1586616338532" />
-    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1586875810057">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587427066056">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586875810057" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586879725892">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587427066056" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1586903417990">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586879725892" />
-    <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1586879279329">
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586903417990" />
+    <state width="1323" height="98" key="GridCell.Tab.0.bottom" timestamp="1587241581445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586879279329" />
-    <state width="1323" height="98" key="GridCell.Tab.0.center" timestamp="1586879279329">
+    <state width="1323" height="98" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587241581445" />
+    <state width="1323" height="98" key="GridCell.Tab.0.center" timestamp="1587241581445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586879279329" />
-    <state width="1323" height="98" key="GridCell.Tab.0.left" timestamp="1586879279329">
+    <state width="1323" height="98" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587241581445" />
+    <state width="1323" height="98" key="GridCell.Tab.0.left" timestamp="1587241581445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586879279329" />
-    <state width="1323" height="98" key="GridCell.Tab.0.right" timestamp="1586879279329">
+    <state width="1323" height="98" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587241581445" />
+    <state width="1323" height="98" key="GridCell.Tab.0.right" timestamp="1587241581445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586879279329" />
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1586864580593">
+    <state width="1323" height="98" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587241581445" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587426982983">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586864580593" />
+    <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587426982983" />
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586881822104">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1586881822104" />
-    <state x="314" y="61" width="737" height="606" key="find.popup" timestamp="1586880161080">
+    <state x="314" y="61" width="737" height="606" key="find.popup" timestamp="1586901932421">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586880161080" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586725744974">
+    <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1586901932421" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1586961791643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586725744974" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1586961791643" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/kwitter$foobar.coverage" NAME="foobar Coverage Results" MODIFIED="1586701959938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/users" />
+    <SUITE FILE_PATH="coverage/kwitter$foobar.coverage" NAME="foobar Coverage Results" MODIFIED="1587208803759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/users" />
     <SUITE FILE_PATH="coverage/kwitter$settings.coverage" NAME="settings Coverage Results" MODIFIED="1586879279267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kwitter" />
+    <SUITE FILE_PATH="coverage/kwitter$ratmaze.coverage" NAME="ratmaze Coverage Results" MODIFIED="1587219630700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/users" />
   </component>
 </project>

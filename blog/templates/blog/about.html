@@ -1,7 +1,17 @@
 {% extends "blog/base.html" %}
 
 {% block content %}
+    <article class="media content-section">
 
-<h2>About Page</h2>
+  <div class="media-body">
+    <div class="article-metadata">
+        <a class="mr-2" href="{% url 'blog-home' %}">About Kwitter</a>
+      <a class="mr-2" href=""></a>
+    </div>
 
+    <h2>The People Rule!</h2>
+    <small class="text-muted">Feel free to fork or contribute.</small>
+      <p class="article-content">This is an open-sourced Django Web Project, and is still in development. <a class="article-title" href="https://github.com/krishnachourasia/kwitter-django">You can view the source code here.</a> Suggestions are welcomed.</p>
+  </div>
+</article>
 {% endblock %}

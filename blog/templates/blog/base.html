@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static "blog/main.css" %}">
 
@@ -30,18 +31,18 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarToggle">
         <div class="navbar-nav mr-auto">
-          <a class="nav-item nav-link" href="{% url 'blog-home' %}">Home</a>
-          <a class="nav-item nav-link" href="{% url 'blog-about' %}">About</a>
+            <a class="nav-item nav-link" href="{% url 'blog-home' %}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
+          <a class="nav-item nav-link" href="{% url 'blog-about' %}"><i class="fa fa-superpowers" aria-hidden="true"></i> About</a>
         </div>
         <!-- Navbar Right Side -->
         <div class="navbar-nav">
             {% if user.is_authenticated %}
-                <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
-                <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
-                <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                <a class="nav-item nav-link" href="{% url 'post-create' %}"><i class="fa fa-plus" aria-hidden="true"> New Post</i></a>
+                <a class="nav-item nav-link second-icon menu-icon" href="{% url 'profile' %}"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
+                <a class="nav-item nav-link" href="{% url 'logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
             {% else %}
-                <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
-                <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                <a class="nav-item nav-link" href="{% url 'login' %}"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
+                <a class="nav-item nav-link" href="{% url 'register' %}"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
             {% endif %}
         </div>
       </div>
@@ -92,20 +93,20 @@
                 <ul class="list-group">
                 {% if user.is_authenticated %}
           <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+                   <a class="nav-item nav-link" href="{% url 'post-create' %}"><i class="fa fa-plus" aria-hidden="true"></i> New Post</a>
           </li>
           <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+                    <a class="nav-item nav-link second-icon menu-icon" href="{% url 'profile' %}"><i class="fa fa-user" aria-hidden="true"></i> Profile</a>
           </li>
           <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+                   <a class="nav-item nav-link" href="{% url 'logout' %}"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
           </li>
             {% else %}
           <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+                    <a class="nav-item nav-link" href="{% url 'login' %}"><i class="fa fa-sign-in" aria-hidden="true"></i> Login</a>
           </li>
           <li class="list-group-item list-group-item-light">
-                    <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+                    <a class="nav-item nav-link" href="{% url 'register' %}"><i class="fa fa-user-plus" aria-hidden="true"></i> Register</a>
           </li>
             {% endif %}
           </ul>
@@ -115,7 +116,7 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://mdbootstrap.com/"> krishnachourasia.me</a>
+    <a href="https://krishnachourasia.me/"> krishnachourasia.me</a>
   </div>
   <!-- Copyright -->
 
